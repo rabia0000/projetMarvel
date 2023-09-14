@@ -19,15 +19,15 @@ header {
   font-size: 16px;
   color: orange;
   padding: 0 10px;
+  display:inline;
   position: relative;
-  bottom:60px
+  left: 250px;
+  bottom: 60px;
 
 }
 .lien {
-  display: inline-block;
-  margin: 0 auto;
-  float: right;
-  
+
+
 }
 
 .logo {
@@ -42,11 +42,12 @@ html {
 
 .image1 {
   float: left;
-  width: 40%;
+  width: 30%;
   margin: 0 10px;
 }
 .marge {
-  margin-left: 10px;
+  margin: 10px;
+  
 }
 
 .clear {
@@ -83,7 +84,9 @@ h2 {
 
 li {
   font-size: 16px;
+  
 }
+
 .lire2 {
 
    float: right;
@@ -98,21 +101,31 @@ li {
   left: 5px;
 
 }
+body{
 
-article{
+  background-image: url(/img/fond.png);
+  background-image: cover;
+}
+.back{
+
+  background-color:white;
+  
   
 }
+.back2{
+  
+
+  
+}
+
+
+
 
 .div3{
   position: relative;
-  left: 830px;
+  left: 270px;
   top:30px;
-}
-
-body{
-  background-image: url(/img/fond.png);
-  background-image: cover;
-  
+  display: inline;
 }
 
 
