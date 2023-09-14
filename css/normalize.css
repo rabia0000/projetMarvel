@@ -73,6 +73,7 @@ h2 {
   font-size: 24px;
   font-family: "Oswald", sans-serif;
   color: orange;
+  margin-top: 0;
 }
 .image2 {
   float: left;
@@ -97,9 +98,23 @@ li {
   left: 5px;
 
 }
-footer{
-  margin-left: 850px;
+
+article{
+  
 }
+
+.div3{
+  position: relative;
+  left: 830px;
+  top:30px;
+}
+
+body{
+  background-image: url(/img/fond.png);
+  background-image: cover;
+  
+}
+
 
 /* Sections
      ========================================================================== */
@@ -108,8 +123,8 @@ footer{
    * Remove the margin in all browsers.
    */
 .back{
- border: 1px solid black;
-  background-color: white;
+
+ background-color: white;
  max-width: 750px;
   margin : 0 auto;
 }
